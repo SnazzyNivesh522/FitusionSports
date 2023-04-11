@@ -2,4 +2,7 @@
     <string name="app_name">FitusionSports</string>
     <string name="app_logo">app logo</string>
     <string name="clickme">Clickme</string>
+    <string name="title_activity_login">LoginActivity</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
 </resources>
