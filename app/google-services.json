@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "1020481177123",
+    "project_id": "fitusionsports-5633f",
+    "storage_bucket": "fitusionsports-5633f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1020481177123:android:25dc8f15e1210be381d396",
+        "android_client_info": {
+          "package_name": "com.example.fitusionsports"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1020481177123-u4b5qrs0hqis2kam6nsi3pbt303hk477.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.fitusionsports",
+            "certificate_hash": "d2d2b0620707ae23080b60ecbca482d7b2387776"
+          }
+        },
+        {
+          "client_id": "1020481177123-c3c1g321n8iv7fli45dnv6h2i471u9qs.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDmT45kaxnEg9lHc3VzFnMuMFKgL4agM20"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1020481177123-c3c1g321n8iv7fli45dnv6h2i471u9qs.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
