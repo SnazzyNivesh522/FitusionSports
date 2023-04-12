@@ -5,4 +5,10 @@
     <string name="title_activity_login">LoginActivity</string>
     <string name="dummy_button">Dummy Button</string>
     <string name="dummy_content">DUMMY\nCONTENT</string>
+    <string name="upload_data">Upload Data</string>
+    <string name="enter_topic_name">Enter Topic NAME</string>
+    <string name="enter_description">Enter description</string>
+    <string name="enter_language">Enter Language</string>
+    <string name="save">Save</string>
+    <string name="uploadimagehere">uploadimagehere</string>
 </resources>
