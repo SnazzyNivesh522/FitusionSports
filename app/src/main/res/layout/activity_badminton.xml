@@ -1,0 +1,769 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="414dp"
+        android:layout_height="737dp"
+        app:cardBackgroundColor="#19BD97"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/AdaptableGeneralizedTraining"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="Adaptable Generalized Training"
+                    android:textAlignment="center"
+                    android:textColor="#000000"
+                    android:textSize="34sp" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/BulletProofKneeText"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="20dp"
+                        android:text="Bullet Proof Knee:"
+                        android:textColor="#000000"
+                        android:textSize="27sp" />
+
+                    <ScrollView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:orientation="horizontal">
+
+                            <LinearLayout
+                                android:layout_width="240dp"
+                                android:layout_height="160dp"
+
+                                android:orientation="vertical">
+
+                                <ImageButton
+                                    android:id="@+id/BackwardSledDragButton"
+                                    android:layout_width="200dp"
+                                    android:layout_height="100dp"
+                                    android:layout_marginLeft="20dp"
+                                    android:layout_marginTop="20dp"
+                                    android:layout_marginRight="20dp"
+                                    app:srcCompat="@drawable/backwardsleddrag" />
+
+                                <TextView
+                                    android:id="@+id/backwardSledDragText"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="30dp"
+                                    android:text="BackwardSledDrag"
+                                    android:textAlignment="center"
+                                    android:textSize="20sp"
+                                    android:textStyle="bold" />
+
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:layout_width="240dp"
+                                android:layout_height="160dp"
+
+                                android:orientation="vertical">
+
+                                <ImageButton
+                                    android:id="@+id/BandedHipFlexionButton"
+                                    android:layout_width="200dp"
+                                    android:layout_height="100dp"
+                                    android:layout_marginLeft="20dp"
+                                    android:layout_marginTop="20dp"
+                                    android:layout_marginRight="20dp"
+                                    app:srcCompat="@drawable/bandedhipflexion" />
+
+                                <TextView
+                                    android:id="@+id/BandedHipFlexionText"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="30dp"
+                                    android:text="BandedHipFlexion"
+                                    android:textAlignment="center"
+                                    android:textSize="20sp"
+                                    android:textStyle="bold" />
+
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:layout_width="240dp"
+                                android:layout_height="160dp"
+
+                                android:orientation="vertical">
+
+                                <ImageButton
+                                    android:id="@+id/BandedKneeFlexionButton"
+                                    android:layout_width="200dp"
+                                    android:layout_height="100dp"
+                                    android:layout_marginLeft="20dp"
+                                    android:layout_marginTop="20dp"
+                                    android:layout_marginRight="20dp"
+                                    app:srcCompat="@drawable/bandedkneeflexion" />
+
+                                <TextView
+                                    android:id="@+id/BandedKneeFlexionText"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="30dp"
+
+                                    android:text="BandedKneeFlexion"
+                                    android:textAlignment="center"
+                                    android:textSize="20sp"
+                                    android:textStyle="bold" />
+
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:layout_width="240dp"
+                                android:layout_height="160dp"
+
+                                android:orientation="vertical">
+
+                                <ImageButton
+                                    android:id="@+id/LegExtensionButton"
+                                    android:layout_width="200dp"
+                                    android:layout_height="100dp"
+                                    android:layout_marginLeft="20dp"
+                                    android:layout_marginTop="20dp"
+                                    android:layout_marginRight="20dp"
+                                    android:background="@color/white"
+                                    android:scaleType="fitCenter"
+                                    app:srcCompat="@drawable/legextension" />
+
+                                <TextView
+                                    android:id="@+id/LegExtensionText"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="30dp"
+                                    android:text="LegExtension"
+                                    android:textAlignment="center"
+                                    android:textSize="20sp"
+                                    android:textStyle="bold" />
+
+                            </LinearLayout>
+
+                        </LinearLayout>
+                    </ScrollView>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/BulletProofSpineText"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="20dp"
+                        android:text="Bullet Proof Spine:"
+                        android:textColor="#000000"
+                        android:textSize="27sp" />
+
+                    <ScrollView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:orientation="horizontal">
+
+                            <LinearLayout
+                                android:layout_width="240dp"
+                                android:layout_height="160dp"
+
+                                android:orientation="vertical">
+
+                                <ImageButton
+                                    android:id="@+id/BackExtensionButton"
+                                    android:layout_width="200dp"
+                                    android:layout_height="100dp"
+                                    android:layout_marginLeft="20dp"
+                                    android:layout_marginTop="20dp"
+                                    android:layout_marginRight="20dp"
+                                    app:srcCompat="@drawable/backextensions"
+                                    />
+
+                                <TextView
+                                    android:id="@+id/BackExtensionText"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="30dp"
+                                    android:contentDescription="BackExtension"
+                                    android:text="BackExtension"
+                                    android:textAlignment="center"
+                                    android:textSize="20sp"
+                                    android:textStyle="bold"
+                                    tools:ignore="TextSizeCheck" />
+
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:layout_width="240dp"
+                                android:layout_height="160dp"
+
+                                android:orientation="vertical">
+
+                                <ImageButton
+                                    android:id="@+id/QlRaiseBackExtensionButton"
+                                    android:layout_width="200dp"
+                                    android:layout_height="100dp"
+                                    android:layout_marginLeft="20dp"
+                                    android:layout_marginTop="20dp"
+                                    android:layout_marginRight="20dp"
+                                    app:srcCompat="@drawable/qlraisebackextension" />
+
+                                <TextView
+                                    android:id="@+id/QlRaiseBackExtesionText"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="30dp"
+                                    android:text="QlRaiseBaxkExtension"
+                                    android:textAlignment="center"
+                                    android:textSize="20sp"
+                                    android:textStyle="bold" />
+
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:layout_width="240dp"
+                                android:layout_height="160dp"
+
+                                android:orientation="vertical">
+
+                                <ImageButton
+                                    android:id="@+id/JeffersonCurlImagesButton"
+                                    android:layout_width="200dp"
+                                    android:layout_height="100dp"
+                                    android:layout_marginLeft="20dp"
+                                    android:layout_marginTop="20dp"
+                                    android:layout_marginRight="20dp"
+                                    app:srcCompat="@drawable/jeffersoncurlsimages" />
+
+                                <TextView
+                                    android:id="@+id/JeffersonCurlsImagesText"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="30dp"
+
+                                    android:text="JeffersonCurls"
+                                    android:textAlignment="center"
+                                    android:textSize="20sp"
+                                    android:textStyle="bold" />
+
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:layout_width="240dp"
+                                android:layout_height="160dp"
+
+                                android:orientation="vertical">
+
+                                <ImageButton
+                                    android:id="@+id/SeatedGoodMorningsButton"
+                                    android:layout_width="200dp"
+                                    android:layout_height="100dp"
+                                    android:layout_marginLeft="20dp"
+                                    android:layout_marginTop="20dp"
+                                    android:layout_marginRight="20dp"
+                                    app:srcCompat="@drawable/seatedgoodmornings" />
+
+                                <TextView
+                                    android:id="@+id/SeatedGoodMorninhsText"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="30dp"
+                                    android:text="SeatedGoodMornings"
+                                    android:textAlignment="center"
+                                    android:textSize="20sp"
+                                    android:textStyle="bold" />
+
+                            </LinearLayout>
+
+                        </LinearLayout>
+                    </ScrollView>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/BulletProofAnklesText"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="20dp"
+                        android:text="Bullet Proof Ankles:"
+                        android:textColor="#000000"
+                        android:textSize="27sp" />
+
+                    <ScrollView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:orientation="horizontal">
+
+                            <LinearLayout
+                                android:layout_width="240dp"
+                                android:layout_height="160dp"
+
+                                android:orientation="vertical">
+
+                                <ImageButton
+                                    android:id="@+id/TibiaRaiseButton"
+                                    android:layout_width="200dp"
+                                    android:layout_height="100dp"
+                                    android:layout_marginLeft="20dp"
+                                    android:layout_marginTop="20dp"
+                                    android:layout_marginRight="20dp"
+                                    app:srcCompat="@drawable/tibiaraise" />
+
+                                <TextView
+                                    android:id="@+id/TibiaRaiseText"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="30dp"
+                                    android:text="TibiaRaise"
+                                    android:textAlignment="center"
+                                    android:textSize="20sp"
+                                    android:textStyle="bold" />
+
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:layout_width="240dp"
+                                android:layout_height="160dp"
+
+                                android:orientation="vertical">
+
+                                <ImageButton
+                                    android:id="@+id/FourSquareDrillButton"
+                                    android:layout_width="200dp"
+                                    android:layout_height="100dp"
+                                    android:layout_marginLeft="20dp"
+                                    android:layout_marginTop="20dp"
+                                    android:layout_marginRight="20dp"
+                                    app:srcCompat="@drawable/foursquaredrill" />
+
+                                <TextView
+                                    android:id="@+id/FourSquareDrillText"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="30dp"
+                                    android:text="FourSquareDrill"
+                                    android:textAlignment="center"
+                                    android:textSize="20sp"
+                                    android:textStyle="bold" />
+
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:layout_width="240dp"
+                                android:layout_height="160dp"
+
+                                android:orientation="vertical">
+
+                                <ImageButton
+                                    android:id="@+id/OneLegCalfRaiseButton"
+                                    android:layout_width="200dp"
+                                    android:layout_height="100dp"
+                                    android:layout_marginLeft="20dp"
+                                    android:layout_marginTop="20dp"
+                                    android:layout_marginRight="20dp"
+                                    app:srcCompat="@drawable/onelegcalfraise" />
+
+                                <TextView
+                                    android:id="@+id/OneLegCalfRaiseText"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="30dp"
+
+                                    android:text="OneLegCalfRaise"
+                                    android:textAlignment="center"
+                                    android:textSize="20sp"
+                                    android:textStyle="bold" />
+
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:layout_width="240dp"
+                                android:layout_height="160dp"
+
+                                android:orientation="vertical">
+
+                                <ImageButton
+                                    android:id="@+id/InclineCalfStrechButton"
+                                    android:layout_width="200dp"
+                                    android:layout_height="100dp"
+                                    android:layout_marginLeft="20dp"
+                                    android:layout_marginTop="20dp"
+                                    android:layout_marginRight="20dp"
+                                    app:srcCompat="@drawable/inclinedcalfstrech" />
+
+                                <TextView
+                                    android:id="@+id/InclineCalfStrechText"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="30dp"
+                                    android:text="InclineCalfStrech"
+                                    android:textAlignment="center"
+                                    android:textSize="20sp"
+                                    android:textStyle="bold" />
+
+                            </LinearLayout>
+
+                        </LinearLayout>
+                    </ScrollView>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/QuadStrenghteningText"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="20dp"
+                        android:text="Quad Strengthening"
+                        android:textColor="#000000"
+                        android:textSize="27sp" />
+
+                    <ScrollView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:orientation="horizontal">
+
+                            <LinearLayout
+                                android:layout_width="240dp"
+                                android:layout_height="160dp"
+
+                                android:orientation="vertical">
+
+                                <ImageButton
+                                    android:id="@+id/BarbellBackSquatsButton"
+                                    android:layout_width="200dp"
+                                    android:layout_height="100dp"
+                                    android:layout_marginLeft="20dp"
+                                    android:layout_marginTop="20dp"
+                                    android:layout_marginRight="20dp"
+                                    android:background="grey"
+                                    android:scaleType="fitCenter"
+                                    app:srcCompat="@drawable/barbellbacksquat" />
+
+                                <TextView
+                                    android:id="@+id/BarbellBackSquatsText"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="30dp"
+                                    android:text="BarBellBackSquat"
+                                    android:textAlignment="center"
+                                    android:textSize="20sp"
+                                    android:textStyle="bold" />
+
+
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:layout_width="240dp"
+                                android:layout_height="160dp"
+
+                                android:orientation="vertical">
+
+                                <ImageButton
+                                    android:id="@+id/BarbellFrontSquatsButton"
+                                    android:layout_width="200dp"
+                                    android:layout_height="100dp"
+                                    android:layout_marginLeft="20dp"
+                                    android:layout_marginTop="20dp"
+                                    android:layout_marginRight="20dp"
+                                    android:background="@color/white"
+                                    android:scaleType="fitCenter"
+                                    app:srcCompat="@drawable/barbellfrontsquat" />
+
+                                <TextView
+                                    android:id="@+id/BarbellFrontSquatsText"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="30dp"
+
+                                    android:text="BarbellFrontSquats"
+                                    android:textAlignment="center"
+                                    android:textSize="20sp"
+                                    android:textStyle="bold" />
+
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:layout_width="240dp"
+                                android:layout_height="160dp"
+
+                                android:orientation="vertical">
+
+                                <ImageButton
+                                    android:id="@+id/WeightedLungesButton"
+                                    android:layout_width="200dp"
+                                    android:layout_height="100dp"
+                                    android:layout_marginLeft="20dp"
+                                    android:layout_marginTop="20dp"
+                                    android:layout_marginRight="20dp"
+                                    app:srcCompat="@drawable/weightedlunges" />
+
+                                <TextView
+                                    android:id="@+id/WeightedLungesText"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="30dp"
+
+                                    android:text="WeightedLunges"
+                                    android:textAlignment="center"
+                                    android:textSize="20sp"
+                                    android:textStyle="bold" />
+
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:layout_width="240dp"
+                                android:layout_height="160dp"
+
+                                android:orientation="vertical">
+
+                                <ImageButton
+                                    android:id="@+id/BulgarianSplitSquatsButton"
+                                    android:layout_width="200dp"
+                                    android:layout_height="100dp"
+                                    android:layout_marginLeft="20dp"
+                                    android:layout_marginTop="20dp"
+                                    android:layout_marginRight="20dp"
+                                    app:srcCompat="@drawable/bulgaruansplitsquat" />
+
+                                <TextView
+                                    android:id="@+id/BulgarianSplitSquatsText"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="30dp"
+                                    android:text="BulgarianSplitSquats"
+                                    android:textAlignment="center"
+                                    android:textSize="20sp"
+                                    android:textStyle="bold" />
+
+                            </LinearLayout>
+
+                        </LinearLayout>
+                    </ScrollView>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/HamstringStrengtheningText"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="20dp"
+                        android:text="Hamstring Strenthening:"
+                        android:textColor="#000000"
+                        android:textSize="27sp" />
+
+                    <ScrollView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:orientation="horizontal">
+
+                            <LinearLayout
+                                android:layout_width="240dp"
+                                android:layout_height="160dp"
+
+                                android:orientation="vertical">
+
+                                <ImageButton
+                                    android:id="@+id/LegCurlsButton"
+                                    android:layout_width="200dp"
+                                    android:layout_height="100dp"
+                                    android:layout_marginLeft="20dp"
+                                    android:layout_marginTop="20dp"
+                                    android:layout_marginRight="20dp"
+                                    app:srcCompat="@drawable/legcurls" />
+
+                                <TextView
+                                    android:id="@+id/LegCurlsText"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="30dp"
+                                    android:text="LegCurls"
+                                    android:textAlignment="center"
+                                    android:textSize="20sp"
+                                    android:textStyle="bold" />
+
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:layout_width="240dp"
+                                android:layout_height="160dp"
+
+                                android:orientation="vertical">
+
+                                <ImageButton
+                                    android:id="@+id/StiffLegDeadLiftButton"
+                                    android:layout_width="200dp"
+                                    android:layout_height="100dp"
+                                    android:layout_marginLeft="20dp"
+                                    android:layout_marginTop="20dp"
+                                    android:layout_marginRight="20dp"
+                                    android:background="@color/white"
+                                    android:scaleType="fitCenter"
+                                    app:srcCompat="@drawable/stifflegdeadlift" />
+
+                                <TextView
+                                    android:id="@+id/StiffLegDeadLiftText"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="30dp"
+                                    android:text="StiffLegDeadLift"
+                                    android:textAlignment="center"
+                                    android:textSize="20sp"
+                                    android:textStyle="bold" />
+
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:layout_width="240dp"
+                                android:layout_height="160dp"
+
+                                android:orientation="vertical">
+
+                                <ImageButton
+                                    android:id="@+id/NordicCurlsButton"
+                                    android:layout_width="200dp"
+                                    android:layout_height="100dp"
+                                    android:layout_marginLeft="20dp"
+                                    android:layout_marginTop="20dp"
+                                    android:layout_marginRight="20dp"
+                                    app:srcCompat="@drawable/nordiccurls" />
+
+                                <TextView
+                                    android:id="@+id/NordicCurlsText"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="30dp"
+
+                                    android:text="NordicCurls"
+                                    android:textAlignment="center"
+                                    android:textSize="20sp"
+                                    android:textStyle="bold" />
+
+                            </LinearLayout>
+
+                        </LinearLayout>
+                    </ScrollView>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/ShoulderStrentheningText"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="20dp"
+                        android:text="ShoulderStrenthening"
+                        android:textColor="#000000"
+                        android:textSize="27sp" />
+
+                    <ScrollView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:orientation="horizontal">
+
+                            <LinearLayout
+                                android:layout_width="240dp"
+                                android:layout_height="160dp"
+
+                                android:orientation="vertical">
+
+                                <ImageButton
+                                    android:id="@+id/FullRangeLateralRaiseButton"
+                                    android:layout_width="200dp"
+                                    android:layout_height="100dp"
+                                    android:layout_marginLeft="20dp"
+                                    android:layout_marginTop="20dp"
+                                    android:layout_marginRight="20dp"
+                                    android:background="@color/white"
+                                    android:scaleType="fitCenter"
+                                    app:srcCompat="@drawable/fullrangelateralraise" />
+
+                                <TextView
+                                    android:id="@+id/FullRangeLateralRaiseText"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="30dp"
+                                    android:text="FullRangeLateralRaise"
+                                    android:textAlignment="center"
+                                    android:textSize="20sp"
+                                    android:textStyle="bold" />
+
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:layout_width="240dp"
+                                android:layout_height="160dp"
+
+                                android:orientation="vertical">
+
+                                <ImageButton
+                                    android:id="@+id/ExternalRotationWithArmAbductionButton"
+                                    android:layout_width="200dp"
+                                    android:layout_height="100dp"
+                                    android:layout_marginLeft="20dp"
+                                    android:layout_marginTop="20dp"
+                                    android:layout_marginRight="20dp"
+                                    android:background="@color/white"
+                                    android:scaleType="fitCenter"
+                                    app:srcCompat="@drawable/reardelts" />
+
+                                <TextView
+                                    android:id="@+id/ExternalRotationWithArmAbductionText"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="30dp"
+                                    android:text="External Rotation With Arm Abduction"
+                                    android:textAlignment="center"
+                                    android:textSize="20sp"
+                                    android:textStyle="bold" />
+
+                            </LinearLayout>
+
+                        </LinearLayout>
+                    </ScrollView>
+                </LinearLayout>
+
+            </LinearLayout>
+        </ScrollView>
+    </androidx.cardview.widget.CardView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
