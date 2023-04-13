@@ -30,11 +30,11 @@ import java.text.DateFormat;
 import java.util.Calendar;
 
 public class UploadActivity extends AppCompatActivity {
-    ImageView uploadimage;
-    Button savebutton;
-    EditText uploadtopic,uploaddesc,uploadlanguage;
-    String imageurl;
-    Uri uri;
+    private ImageView uploadimage;
+    private Button savebutton;
+    private EditText uploadtopic,uploaddesc,uploadlanguage;
+    private String imageurl;
+    private Uri uri;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -52,7 +52,11 @@ public class UploadActivity extends AppCompatActivity {
                         if(result.getResultCode()== Activity.RESULT_OK){
                             Intent data =result.getData();
                             uri=data.getData();
-                            uploadimage.setImageURI(uri);
+                            if(uri==null) {
+                                return;
+                            }
+                            else
+                                uploadimage.setImageURI(uri);
                         }
                         else{
                             Toast.makeText(UploadActivity.this, "No Image Selected", Toast.LENGTH_SHORT).show();
@@ -77,7 +81,7 @@ public class UploadActivity extends AppCompatActivity {
     }
 
     public void savedata() {
-        StorageReference storageReference= FirebaseStorage.getInstance().getReference().child("Android Images").child(uri.getLastPathSegment());
+        final StorageReference storageReference= FirebaseStorage.getInstance().getReference().child("Android Images").child(uri.getLastPathSegment());
         AlertDialog.Builder builder=new AlertDialog.Builder(UploadActivity.this);
         builder.setCancelable(false);
         builder.setView(R.layout.progress_layout);
@@ -87,12 +91,12 @@ public class UploadActivity extends AppCompatActivity {
             @Override
             public void onSuccess(UploadTask.TaskSnapshot taskSnapshot) {
                 Task<Uri> uriTask=taskSnapshot.getStorage().getDownloadUrl();
-                while(!uriTask.isComplete()){
-                    Uri urlImage=uriTask.getResult();
-                    imageurl=urlImage.toString();
-                    uploaddata();
-                    dialog.dismiss();
-                }
+                while (!uriTask.isComplete());
+                Uri urlImage=uriTask.getResult();
+                imageurl=urlImage.toString();
+                uploaddata();
+                dialog.dismiss();
+
             }
         }).addOnFailureListener(new OnFailureListener() {
             @Override
