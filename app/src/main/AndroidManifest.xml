@@ -14,6 +14,12 @@
         android:theme="@style/Theme.FitusionSports"
         tools:targetApi="31">
         <activity
+            android:name=".SportsLibraryActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activity_badminton"
+            android:exported="false" />
+        <activity
             android:name=".UploadActivity"
             android:exported="false" />
         <activity android:name=".MainActivity" />
