@@ -8,7 +8,7 @@
     <androidx.cardview.widget.CardView
         android:layout_width="414dp"
         android:layout_height="737dp"
-        app:cardBackgroundColor="#19BD97"
+        app:cardBackgroundColor="#383B6E"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -27,9 +27,10 @@
                     android:id="@+id/AdaptableGeneralizedTraining"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
+                    android:layout_marginTop="10dp"
                     android:text="Adaptable Generalized Training"
                     android:textAlignment="center"
-                    android:textColor="#000000"
+                    android:textColor="#FFFFFF"
                     android:textSize="34sp" />
 
                 <LinearLayout
@@ -41,9 +42,10 @@
                         android:id="@+id/BulletProofKneeText"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
                         android:layout_marginTop="20dp"
                         android:text="Bullet Proof Knee"
-                        android:textColor="#000000"
+                        android:textColor="#FFFFFF"
                         android:textSize="27sp" />
 
                     <ScrollView
@@ -53,22 +55,23 @@
                         <LinearLayout
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
-                            android:orientation="horizontal">
+                            android:orientation="horizontal"
+                            android:layout_marginLeft="10dp"
+                            android:background="@drawable/roundedcorners">
 
                             <LinearLayout
                                 android:layout_width="240dp"
                                 android:layout_height="160dp"
-
                                 android:orientation="vertical">
 
                                 <ImageButton
-                                    android:contentDescription="BackwardSledDragButton"
                                     android:id="@+id/BackwardSledDragButton"
                                     android:layout_width="200dp"
                                     android:layout_height="100dp"
                                     android:layout_marginLeft="20dp"
                                     android:layout_marginTop="20dp"
                                     android:layout_marginRight="20dp"
+                                    android:contentDescription="BackwardSledDragButton"
                                     app:srcCompat="@drawable/backwardsleddrag" />
 
                                 <TextView
@@ -90,13 +93,13 @@
                                 android:orientation="vertical">
 
                                 <ImageButton
-                                    android:contentDescription="bandedhipflexion"
                                     android:id="@+id/BandedHipFlexionButton"
                                     android:layout_width="200dp"
                                     android:layout_height="100dp"
                                     android:layout_marginLeft="20dp"
                                     android:layout_marginTop="20dp"
                                     android:layout_marginRight="20dp"
+                                    android:contentDescription="bandedhipflexion"
                                     app:srcCompat="@drawable/bandedhipflexion" />
 
                                 <TextView
@@ -178,9 +181,10 @@
                         android:id="@+id/BulletProofSpineText"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
                         android:layout_marginTop="20dp"
                         android:text="Bullet Proof Spine"
-                        android:textColor="#000000"
+                        android:textColor="#FFFFFF"
                         android:textSize="27sp" />
 
                     <ScrollView
@@ -190,6 +194,8 @@
                         <LinearLayout
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
+                            android:layout_marginLeft="10dp"
+                            android:background="@drawable/roundedcorners"
                             android:orientation="horizontal">
 
                             <LinearLayout
@@ -230,13 +236,13 @@
                                 android:orientation="vertical">
 
                                 <ImageButton
-                                    android:contentDescription="QlRaiseBackExtension"
                                     android:id="@+id/QlRaiseBackExtensionButton"
                                     android:layout_width="200dp"
                                     android:layout_height="100dp"
                                     android:layout_marginLeft="20dp"
                                     android:layout_marginTop="20dp"
                                     android:layout_marginRight="20dp"
+                                    android:contentDescription="QlRaiseBackExtension"
                                     app:srcCompat="@drawable/qlraisebackextension" />
 
                                 <TextView
@@ -316,9 +322,10 @@
                         android:id="@+id/BulletProofAnklesText"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
                         android:layout_marginTop="20dp"
                         android:text="Bullet Proof Ankles"
-                        android:textColor="#000000"
+                        android:textColor="#FFFFFF"
                         android:textSize="27sp" />
 
                     <ScrollView
@@ -328,6 +335,8 @@
                         <LinearLayout
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
+                            android:layout_marginLeft="10dp"
+                            android:background="@drawable/roundedcorners"
                             android:orientation="horizontal">
 
                             <LinearLayout
@@ -337,13 +346,13 @@
                                 android:orientation="vertical">
 
                                 <ImageButton
-                                    android:contentDescription="TibiaRaise"
                                     android:id="@+id/TibiaRaiseButton"
                                     android:layout_width="200dp"
                                     android:layout_height="100dp"
                                     android:layout_marginLeft="20dp"
                                     android:layout_marginTop="20dp"
                                     android:layout_marginRight="20dp"
+                                    android:contentDescription="TibiaRaise"
                                     app:srcCompat="@drawable/tibiaraise" />
 
                                 <TextView
@@ -364,13 +373,13 @@
                                 android:orientation="vertical">
 
                                 <ImageButton
-                                    android:contentDescription="FourSquareDrill"
                                     android:id="@+id/FourSquareDrillButton"
                                     android:layout_width="200dp"
                                     android:layout_height="100dp"
                                     android:layout_marginLeft="20dp"
                                     android:layout_marginTop="20dp"
                                     android:layout_marginRight="20dp"
+                                    android:contentDescription="FourSquareDrill"
                                     app:srcCompat="@drawable/foursquaredrill" />
 
                                 <TextView
@@ -450,9 +459,10 @@
                         android:id="@+id/QuadStrenghteningText"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
                         android:layout_marginTop="20dp"
                         android:text="QuadStrenthening"
-                        android:textColor="#000000"
+                        android:textColor="#FFFFFF"
                         android:textSize="27sp" />
 
                     <ScrollView
@@ -462,6 +472,8 @@
                         <LinearLayout
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
+                            android:layout_marginLeft="10dp"
+                            android:background="@drawable/roundedcorners"
                             android:orientation="horizontal">
 
                             <LinearLayout
@@ -471,7 +483,6 @@
                                 android:orientation="vertical">
 
                                 <ImageButton
-                                    android:contentDescription="BarbellBackSquats"
                                     android:id="@+id/BarbellBackSquatsButton"
                                     android:layout_width="200dp"
                                     android:layout_height="100dp"
@@ -479,6 +490,7 @@
                                     android:layout_marginTop="20dp"
                                     android:layout_marginRight="20dp"
                                     android:background="grey"
+                                    android:contentDescription="BarbellBackSquats"
                                     android:scaleType="fitCenter"
                                     app:srcCompat="@drawable/barbellbacksquat" />
 
@@ -589,9 +601,10 @@
                         android:id="@+id/HamstringStrengtheningText"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
                         android:layout_marginTop="20dp"
                         android:text="hamstring_strenthening"
-                        android:textColor="#000000"
+                        android:textColor="#FFFFFF"
                         android:textSize="27sp" />
 
                     <ScrollView
@@ -601,6 +614,8 @@
                         <LinearLayout
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
+                            android:layout_marginLeft="10dp"
+                            android:background="@drawable/roundedcorners"
                             android:orientation="horizontal">
 
                             <LinearLayout
@@ -697,9 +712,10 @@
                         android:id="@+id/ShoulderStrentheningText"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
                         android:layout_marginTop="20dp"
                         android:text="ShoulderStrenthening"
-                        android:textColor="#000000"
+                        android:textColor="#FFFFFF"
                         android:textSize="27sp" />
 
                     <ScrollView
@@ -709,12 +725,14 @@
                         <LinearLayout
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
-                            android:orientation="horizontal">
+                            android:orientation="horizontal"
+                            android:layout_marginLeft="10dp"
+                            android:layout_marginBottom="10dp"
+                            android:background="@drawable/roundedcorners">
 
                             <LinearLayout
                                 android:layout_width="240dp"
                                 android:layout_height="160dp"
-
                                 android:orientation="vertical">
 
                                 <ImageButton
@@ -746,7 +764,6 @@
                                 android:orientation="vertical">
 
                                 <ImageButton
-                                    android:contentDescription="ExternalRotation"
                                     android:id="@+id/ExternalRotationWithArmAbductionButton"
                                     android:layout_width="200dp"
                                     android:layout_height="100dp"
@@ -754,6 +771,7 @@
                                     android:layout_marginTop="20dp"
                                     android:layout_marginRight="20dp"
                                     android:background="@color/white"
+                                    android:contentDescription="ExternalRotation"
                                     android:scaleType="fitCenter"
                                     app:srcCompat="@drawable/reardelts" />
 
