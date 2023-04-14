@@ -63,13 +63,13 @@
                                 android:layout_width="240dp"
                                 android:layout_height="160dp"
                                 android:orientation="vertical">
-
                                 <ImageButton
                                     android:id="@+id/BackwardSledDragButton"
                                     android:layout_width="200dp"
                                     android:layout_height="100dp"
                                     android:layout_marginLeft="20dp"
                                     android:layout_marginTop="20dp"
+
                                     android:layout_marginRight="20dp"
                                     android:contentDescription="BackwardSledDragButton"
                                     app:srcCompat="@drawable/backwardsleddrag" />
