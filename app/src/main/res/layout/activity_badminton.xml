@@ -42,7 +42,7 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_marginTop="20dp"
-                        android:text="Bullet Proof Knee:"
+                        android:text="Bullet Proof Knee"
                         android:textColor="#000000"
                         android:textSize="27sp" />
 
@@ -52,7 +52,7 @@
 
                         <LinearLayout
                             android:layout_width="match_parent"
-                            android:layout_height="match_parent"
+                            android:layout_height="wrap_content"
                             android:orientation="horizontal">
 
                             <LinearLayout
@@ -62,6 +62,7 @@
                                 android:orientation="vertical">
 
                                 <ImageButton
+                                    android:contentDescription="BackwardSledDragButton"
                                     android:id="@+id/BackwardSledDragButton"
                                     android:layout_width="200dp"
                                     android:layout_height="100dp"
@@ -74,10 +75,11 @@
                                     android:id="@+id/backwardSledDragText"
                                     android:layout_width="match_parent"
                                     android:layout_height="30dp"
-                                    android:text="BackwardSledDrag"
+                                    android:text="BackWardSledDrag"
                                     android:textAlignment="center"
                                     android:textSize="20sp"
-                                    android:textStyle="bold" />
+                                    android:textStyle="bold"
+                                    tools:ignore="TextSizeCheck" />
 
                             </LinearLayout>
 
@@ -88,6 +90,7 @@
                                 android:orientation="vertical">
 
                                 <ImageButton
+                                    android:contentDescription="bandedhipflexion"
                                     android:id="@+id/BandedHipFlexionButton"
                                     android:layout_width="200dp"
                                     android:layout_height="100dp"
@@ -176,7 +179,7 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_marginTop="20dp"
-                        android:text="Bullet Proof Spine:"
+                        android:text="Bullet Proof Spine"
                         android:textColor="#000000"
                         android:textSize="27sp" />
 
@@ -186,7 +189,7 @@
 
                         <LinearLayout
                             android:layout_width="match_parent"
-                            android:layout_height="match_parent"
+                            android:layout_height="wrap_content"
                             android:orientation="horizontal">
 
                             <LinearLayout
@@ -202,14 +205,16 @@
                                     android:layout_marginLeft="20dp"
                                     android:layout_marginTop="20dp"
                                     android:layout_marginRight="20dp"
+                                    android:background="@color/white"
+                                    android:contentDescription="backextension"
+                                    android:scaleType="fitCenter"
                                     app:srcCompat="@drawable/backextensions"
-                                    />
+                                    tools:ignore="DuplicateSpeakableTextCheck" />
 
                                 <TextView
                                     android:id="@+id/BackExtensionText"
                                     android:layout_width="match_parent"
                                     android:layout_height="30dp"
-                                    android:contentDescription="BackExtension"
                                     android:text="BackExtension"
                                     android:textAlignment="center"
                                     android:textSize="20sp"
@@ -225,6 +230,7 @@
                                 android:orientation="vertical">
 
                                 <ImageButton
+                                    android:contentDescription="QlRaiseBackExtension"
                                     android:id="@+id/QlRaiseBackExtensionButton"
                                     android:layout_width="200dp"
                                     android:layout_height="100dp"
@@ -234,10 +240,10 @@
                                     app:srcCompat="@drawable/qlraisebackextension" />
 
                                 <TextView
-                                    android:id="@+id/QlRaiseBackExtesionText"
+                                    android:id="@+id/QlRaiseBackExtensionText"
                                     android:layout_width="match_parent"
                                     android:layout_height="30dp"
-                                    android:text="QlRaiseBaxkExtension"
+                                    android:text="QlRaiseBackExtension"
                                     android:textAlignment="center"
                                     android:textSize="20sp"
                                     android:textStyle="bold" />
@@ -287,7 +293,7 @@
                                     app:srcCompat="@drawable/seatedgoodmornings" />
 
                                 <TextView
-                                    android:id="@+id/SeatedGoodMorninhsText"
+                                    android:id="@+id/SeatedGoodMorningsText"
                                     android:layout_width="match_parent"
                                     android:layout_height="30dp"
                                     android:text="SeatedGoodMornings"
@@ -311,7 +317,7 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_marginTop="20dp"
-                        android:text="Bullet Proof Ankles:"
+                        android:text="Bullet Proof Ankles"
                         android:textColor="#000000"
                         android:textSize="27sp" />
 
@@ -321,7 +327,7 @@
 
                         <LinearLayout
                             android:layout_width="match_parent"
-                            android:layout_height="match_parent"
+                            android:layout_height="wrap_content"
                             android:orientation="horizontal">
 
                             <LinearLayout
@@ -331,6 +337,7 @@
                                 android:orientation="vertical">
 
                                 <ImageButton
+                                    android:contentDescription="TibiaRaise"
                                     android:id="@+id/TibiaRaiseButton"
                                     android:layout_width="200dp"
                                     android:layout_height="100dp"
@@ -357,6 +364,7 @@
                                 android:orientation="vertical">
 
                                 <ImageButton
+                                    android:contentDescription="FourSquareDrill"
                                     android:id="@+id/FourSquareDrillButton"
                                     android:layout_width="200dp"
                                     android:layout_height="100dp"
@@ -422,7 +430,7 @@
                                     android:id="@+id/InclineCalfStrechText"
                                     android:layout_width="match_parent"
                                     android:layout_height="30dp"
-                                    android:text="InclineCalfStrech"
+                                    android:text="InclinedCalfStrech"
                                     android:textAlignment="center"
                                     android:textSize="20sp"
                                     android:textStyle="bold" />
@@ -443,7 +451,7 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_marginTop="20dp"
-                        android:text="Quad Strengthening"
+                        android:text="QuadStrenthening"
                         android:textColor="#000000"
                         android:textSize="27sp" />
 
@@ -453,7 +461,7 @@
 
                         <LinearLayout
                             android:layout_width="match_parent"
-                            android:layout_height="match_parent"
+                            android:layout_height="wrap_content"
                             android:orientation="horizontal">
 
                             <LinearLayout
@@ -463,6 +471,7 @@
                                 android:orientation="vertical">
 
                                 <ImageButton
+                                    android:contentDescription="BarbellBackSquats"
                                     android:id="@+id/BarbellBackSquatsButton"
                                     android:layout_width="200dp"
                                     android:layout_height="100dp"
@@ -477,7 +486,7 @@
                                     android:id="@+id/BarbellBackSquatsText"
                                     android:layout_width="match_parent"
                                     android:layout_height="30dp"
-                                    android:text="BarBellBackSquat"
+                                    android:text="BarBellBackSquats"
                                     android:textAlignment="center"
                                     android:textSize="20sp"
                                     android:textStyle="bold" />
@@ -507,7 +516,7 @@
                                     android:layout_width="match_parent"
                                     android:layout_height="30dp"
 
-                                    android:text="BarbellFrontSquats"
+                                    android:text="BarBellFrontSquats"
                                     android:textAlignment="center"
                                     android:textSize="20sp"
                                     android:textStyle="bold" />
@@ -581,7 +590,7 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_marginTop="20dp"
-                        android:text="Hamstring Strenthening:"
+                        android:text="hamstring_strenthening"
                         android:textColor="#000000"
                         android:textSize="27sp" />
 
@@ -591,7 +600,7 @@
 
                         <LinearLayout
                             android:layout_width="match_parent"
-                            android:layout_height="match_parent"
+                            android:layout_height="wrap_content"
                             android:orientation="horizontal">
 
                             <LinearLayout
@@ -641,7 +650,7 @@
                                     android:id="@+id/StiffLegDeadLiftText"
                                     android:layout_width="match_parent"
                                     android:layout_height="30dp"
-                                    android:text="StiffLegDeadLift"
+                                    android:text="StiffLegDeadlift"
                                     android:textAlignment="center"
                                     android:textSize="20sp"
                                     android:textStyle="bold" />
@@ -699,7 +708,7 @@
 
                         <LinearLayout
                             android:layout_width="match_parent"
-                            android:layout_height="match_parent"
+                            android:layout_height="wrap_content"
                             android:orientation="horizontal">
 
                             <LinearLayout
@@ -737,6 +746,7 @@
                                 android:orientation="vertical">
 
                                 <ImageButton
+                                    android:contentDescription="ExternalRotation"
                                     android:id="@+id/ExternalRotationWithArmAbductionButton"
                                     android:layout_width="200dp"
                                     android:layout_height="100dp"
@@ -751,7 +761,7 @@
                                     android:id="@+id/ExternalRotationWithArmAbductionText"
                                     android:layout_width="match_parent"
                                     android:layout_height="30dp"
-                                    android:text="External Rotation With Arm Abduction"
+                                    android:text="ExternalRotationWithArmAbduction"
                                     android:textAlignment="center"
                                     android:textSize="20sp"
                                     android:textStyle="bold" />
