@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/bottom_home"
+        android:icon="@drawable/ic_baseline_home_24"
+        android:title="Home"/>
+    <item android:id="@+id/bottom_fitness"
+        android:icon="@drawable/ic_baseline_fitness_24"
+        android:title="Fitness"/>
+    <item android:id="@+id/fab"
+        android:title=""
+        android:enabled="false"/>
+    <item android:id="@+id/bottom_forum"
+        android:icon="@drawable/ic_baseline_forum_24"
+        android:title="Social"/>
+    <item android:id="@+id/bottom_person"
+        android:icon="@drawable/ic_baseline_person_24"
+        android:title="Profile"/>
+</menu>
