@@ -28,7 +28,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:layout_marginTop="10dp"
-                    android:text="Adaptable Generalized Training"
+                    android:text="@string/adaptable_generalized_training"
                     android:textAlignment="center"
                     android:textColor="#FFFFFF"
                     android:textSize="34sp" />
@@ -42,9 +42,9 @@
                         android:id="@+id/BulletProofKneeText"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:layout_marginLeft="10dp"
+                        android:layout_marginStart="10dp"
                         android:layout_marginTop="20dp"
-                        android:text="Bullet Proof Knee"
+                        android:text="@string/bullet_proof_knee"
                         android:textColor="#FFFFFF"
                         android:textSize="27sp" />
 
@@ -71,14 +71,14 @@
                                     android:layout_marginTop="20dp"
 
                                     android:layout_marginRight="20dp"
-                                    android:contentDescription="BackwardSledDragButton"
+                                    android:contentDescription="@string/backward_sled_drag_button"
                                     app:srcCompat="@drawable/backwardsleddrag" />
 
                                 <TextView
                                     android:id="@+id/backwardSledDragText"
                                     android:layout_width="match_parent"
                                     android:layout_height="30dp"
-                                    android:text="BackWardSledDrag"
+                                    android:text="@string/BackwardSledDrag"
                                     android:textAlignment="center"
                                     android:textSize="20sp"
                                     android:textStyle="bold"
@@ -99,14 +99,14 @@
                                     android:layout_marginLeft="20dp"
                                     android:layout_marginTop="20dp"
                                     android:layout_marginRight="20dp"
-                                    android:contentDescription="bandedhipflexion"
+                                    android:contentDescription="@string/BandedHipFlexion"
                                     app:srcCompat="@drawable/bandedhipflexion" />
 
                                 <TextView
                                     android:id="@+id/BandedHipFlexionText"
                                     android:layout_width="match_parent"
                                     android:layout_height="30dp"
-                                    android:text="BandedHipFlexion"
+                                    android:text="@string/BandedHipFlexion"
                                     android:textAlignment="center"
                                     android:textSize="20sp"
                                     android:textStyle="bold" />
@@ -133,7 +133,7 @@
                                     android:layout_width="match_parent"
                                     android:layout_height="30dp"
 
-                                    android:text="BandedKneeFlexion"
+                                    android:text="@string/BandedKneeFlexion"
                                     android:textAlignment="center"
                                     android:textSize="20sp"
                                     android:textStyle="bold" />
@@ -161,7 +161,7 @@
                                     android:id="@+id/LegExtensionText"
                                     android:layout_width="match_parent"
                                     android:layout_height="30dp"
-                                    android:text="LegExtension"
+                                    android:text="@string/LegExtension"
                                     android:textAlignment="center"
                                     android:textSize="20sp"
                                     android:textStyle="bold" />
@@ -183,7 +183,7 @@
                         android:layout_height="wrap_content"
                         android:layout_marginLeft="10dp"
                         android:layout_marginTop="20dp"
-                        android:text="Bullet Proof Spine"
+                        android:text="@string/bullet_proof_spine"
                         android:textColor="#FFFFFF"
                         android:textSize="27sp" />
 
@@ -212,7 +212,7 @@
                                     android:layout_marginTop="20dp"
                                     android:layout_marginRight="20dp"
                                     android:background="@color/white"
-                                    android:contentDescription="backextension"
+                                    android:contentDescription="@string/BackExtension"
                                     android:scaleType="fitCenter"
                                     app:srcCompat="@drawable/backextensions"
                                     tools:ignore="DuplicateSpeakableTextCheck" />
@@ -221,7 +221,7 @@
                                     android:id="@+id/BackExtensionText"
                                     android:layout_width="match_parent"
                                     android:layout_height="30dp"
-                                    android:text="BackExtension"
+                                    android:text="@string/BackExtension"
                                     android:textAlignment="center"
                                     android:textSize="20sp"
                                     android:textStyle="bold"
@@ -459,7 +459,7 @@
                         android:id="@+id/QuadStrenghteningText"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:layout_marginLeft="10dp"
+                        android:layout_marginStart="10dp"
                         android:layout_marginTop="20dp"
                         android:text="QuadStrenthening"
                         android:textColor="#FFFFFF"
@@ -472,7 +472,7 @@
                         <LinearLayout
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
-                            android:layout_marginLeft="10dp"
+                            android:layout_marginStart="10dp"
                             android:background="@drawable/roundedcorners"
                             android:orientation="horizontal">
 
@@ -490,7 +490,7 @@
                                     android:layout_marginTop="20dp"
                                     android:layout_marginRight="20dp"
                                     android:background="grey"
-                                    android:contentDescription="BarbellBackSquats"
+                                    android:contentDescription="@string/BarbellBackSquats"
                                     android:scaleType="fitCenter"
                                     app:srcCompat="@drawable/barbellbacksquat" />
 
@@ -498,7 +498,7 @@
                                     android:id="@+id/BarbellBackSquatsText"
                                     android:layout_width="match_parent"
                                     android:layout_height="30dp"
-                                    android:text="BarBellBackSquats"
+                                    android:text="@string/barbellbacksquats"
                                     android:textAlignment="center"
                                     android:textSize="20sp"
                                     android:textStyle="bold" />
@@ -603,7 +603,7 @@
                         android:layout_height="wrap_content"
                         android:layout_marginLeft="10dp"
                         android:layout_marginTop="20dp"
-                        android:text="hamstring_strenthening"
+                        android:text="@string/hamstring_strenthening"
                         android:textColor="#FFFFFF"
                         android:textSize="27sp" />
 
