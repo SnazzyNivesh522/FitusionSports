@@ -1,7 +1,7 @@
 <resources>
     <string name="app_name">FitusionSports</string>
     <string name="app_logo">app logo</string>
-    <string name="clickme">Clickme</string>
+    <string name="ClickMe">Clickme</string>
     <string name="title_activity_login">LoginActivity</string>
     <string name="dummy_button">Dummy Button</string>
     <string name="dummy_content">DUMMY\nCONTENT</string>
@@ -10,8 +10,30 @@
     <string name="enter_description">Enter description</string>
     <string name="enter_language">Enter Language</string>
     <string name="save">Save</string>
-    <string name="uploadimagehere">uploadimagehere</string>
+    <string name="uploadImageHere">uploadimagehere</string>
     <string name="add">add</string>
-    <string name="login">Login</string>
-    <string name="register">Register</string>
+    <string name="adaptable_generalized_training">Adaptable Generalized Training</string>
+    <string name="bullet_proof_knee">Bullet Proof Knee</string>
+    <string name="backward_sled_drag_button">BackwardSledDragButton</string>
+    <string name="BackwardSledDrag">BackWardSledDrag</string>
+    <string name="BandedHipFlexion">BandedHipFlexion</string>
+    <string name="BandedKneeFlexion">BandedKneeFlexion</string>
+    <string name="LegExtension">LegExtension</string>
+    <string name="bullet_proof_spine">Bullet Proof Spine</string>
+    <string name="BackExtension">BackExtension</string>
+    <string name="usernameText">UserName</string>
+    <string name="welcomeText">Welcome,</string>
+    <string name="DefaultUserIcon">defaultUserIcon</string>
+    <string name="week">Week</string>
+    <string name="FitStreak">FitStreaks</string>
+    <string name="StreakDay">StreakDay</string>
+    <string name="StreaMeter">StreakMeter</string>
+    <string name="TodaysWorkout">Today\'s Workout</string>
+    <string name="ImproveStreakByDoing">Improve your streak by doing</string>
+    <string name="WorkoutName">Workout Name</string>
+    <string name="Duration">Duration:</string>
+    <string name="Time">Time</string>
+    <string name="hamstring_strenthening">HamstringStrenthening</string>
+    <string name="BarbellBackSquats">BarbellBackSquats</string>
+    <string name="barbellbacksquats">BarBellBackSquats</string>
 </resources>
