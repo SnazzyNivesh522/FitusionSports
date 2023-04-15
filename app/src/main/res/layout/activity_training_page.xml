@@ -165,6 +165,19 @@
             <androidx.recyclerview.widget.RecyclerView
                 android:layout_width="match_parent"
                 android:layout_height="match_parent" />
+
+            <TextView
+                android:id="@+id/StartYourWorkoutText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:padding="10dp"
+                android:textColor="@color/white"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:textAlignment="center"
+                android:background="@drawable/rounded_corners_light_blue_a400_theme"
+                android:text="@string/StartWorkout" />
         </LinearLayout>
     </ScrollView>
 
