@@ -36,4 +36,8 @@
     <string name="hamstring_strenthening">HamstringStrenthening</string>
     <string name="BarbellBackSquats">BarbellBackSquats</string>
     <string name="barbellbacksquats">BarBellBackSquats</string>
+    <string name="TargetGroupText">TargetGroup</string>
+    <string name="EquipmentProfile">Equiment Profile</string>
+    <string name="DurationText">Duration</string>
+    <string name="EquipmentAvailable">Equipment Available</string>
 </resources>
