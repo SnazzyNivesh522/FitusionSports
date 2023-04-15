@@ -40,4 +40,8 @@
     <string name="EquipmentProfile">Equiment Profile</string>
     <string name="DurationText">Duration</string>
     <string name="EquipmentAvailable">Equipment Available</string>
+    <string name="ExcerciseNameText">ExcerciseName</string>
+    <string name="SetsAndReps">Sets and Reps</string>
+    <string name="TargetGroupName">TargetGroupName</string>
+    <string name="ImageToAppear">ImageToAppear</string>
 </resources>
