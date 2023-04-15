@@ -4,19 +4,10 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent">
-
-    <RelativeLayout
-        android:layout_width="409dp"
-        android:layout_height="729dp"
-        android:background="#383B6E"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent">
-
         <ScrollView
             android:layout_width="match_parent"
-            android:layout_height="match_parent">
+            android:layout_height="match_parent"
+            android:background="#383B6E">
 
             <LinearLayout
                 android:layout_width="match_parent"
@@ -30,7 +21,8 @@
                     android:orientation="horizontal">
 
                     <ImageButton
-                        android:id="@+id/menubutton"
+                        android:contentDescription="@string/MenuButton"
+                        android:id="@+id/MenuButton"
                         android:layout_width="50dp"
                         android:layout_height="50dp"
                         android:layout_margin="20dp"
@@ -38,16 +30,18 @@
                         app:srcCompat="@drawable/menubutton" />
 
                     <ImageButton
-                        android:id="@+id/usericon"
+                        android:contentDescription="@string/DefaultUserIcon"
+                        android:id="@+id/UserIcon"
                         android:layout_width="50dp"
                         android:layout_height="50dp"
 
-                        android:layout_marginLeft="240dp"
+                        android:layout_marginStart="240dp"
                         android:layout_marginTop="20dp"
                         tools:srcCompat="@tools:sample/avatars" />
                 </LinearLayout>
 
                 <TextView
+                    android:text="@string/SportsLibraryText"
                     android:id="@+id/textView"
                     android:layout_width="match_parent"
                     android:layout_height="50dp"
@@ -56,7 +50,6 @@
                     android:layout_marginBottom="20dp"
                     android:fontFamily="sans-serif"
                     android:gravity="center_horizontal"
-                    android:text="Sports Library"
                     android:textColor="#FFFFFF"
                     android:textColorHighlight="#000000"
                     android:textSize="34sp" />
@@ -68,6 +61,7 @@
                     android:orientation="horizontal">
 
                     <ImageButton
+                        android:contentDescription="@string/CricketButton"
                         android:id="@+id/cricket"
                         android:layout_width="100dp"
                         android:layout_height="100dp"
@@ -78,11 +72,13 @@
                         android:src="@drawable/cricket" />
 
                     <ImageButton
-                        android:id="@+id/badminton"
+                        android:id="@+id/badmintonButton"
                         android:layout_width="100dp"
                         android:layout_height="100dp"
-                        android:layout_marginLeft="75dp"
+                        android:layout_marginStart="75dp"
                         android:background="@drawable/roundedcorners"
+                        android:contentDescription="@string/BadmintonButton"
+                        android:onClick="BadmintonPageOpen"
                         android:padding="2dp"
                         android:scaleType="fitCenter"
                         app:srcCompat="@drawable/badmint" />
@@ -99,10 +95,11 @@
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
                         android:gravity="center"
-                        android:paddingLeft="30dp"
-                        android:text="Cricket"
+                        android:paddingStart="30dp"
+                        android:text="@string/Cricket"
                         android:textColor="#FFFFFF"
-                        android:textSize="20sp" />
+                        android:textSize="20sp"
+                        tools:ignore="RtlSymmetry" />
 
                     <TextView
                         android:id="@+id/BadmintonText"
@@ -111,9 +108,10 @@
                         android:layout_weight="1"
                         android:gravity="center"
                         android:paddingEnd="10dp"
-                        android:text="Badminton"
+                        android:text="@string/BadmintonText"
                         android:textColor="#FFFFFF"
-                        android:textSize="20sp" />
+                        android:textSize="20sp"
+                        tools:ignore="RtlSymmetry" />
                 </LinearLayout>
 
                 <LinearLayout
@@ -123,10 +121,11 @@
                     android:orientation="horizontal">
 
                     <ImageButton
+                        android:contentDescription="@string/SwimmingButton"
                         android:id="@+id/swimming"
                         android:layout_width="100dp"
                         android:layout_height="100dp"
-                        android:layout_marginLeft="75dp"
+                        android:layout_marginStart="75dp"
                         android:background="@drawable/roundedcorners"
                         android:padding="2dp"
 
@@ -134,10 +133,11 @@
                         app:srcCompat="@drawable/swimming" />
 
                     <ImageButton
-                        android:id="@+id/foorball"
+                        android:contentDescription="@string/FootballText"
+                        android:id="@+id/FootBall"
                         android:layout_width="100dp"
                         android:layout_height="100dp"
-                        android:layout_marginLeft="75dp"
+                        android:layout_marginStart="75dp"
                         android:background="@drawable/roundedcorners"
                         android:padding="2dp"
                         android:scaleType="fitCenter"
@@ -155,10 +155,11 @@
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
                         android:gravity="center"
-                        android:paddingLeft="40dp"
-                        android:text="Swimming"
+                        android:paddingStart="40dp"
+                        android:text="@string/SwimmingText"
                         android:textColor="#FFFFFF"
-                        android:textSize="20sp" />
+                        android:textSize="20sp"
+                        tools:ignore="RtlSymmetry" />
 
                     <TextView
                         android:id="@+id/FootballText"
@@ -167,9 +168,10 @@
                         android:layout_weight="1"
                         android:gravity="center"
                         android:paddingEnd="10dp"
-                        android:text="Football"
+                        android:text="@string/FootballText"
                         android:textColor="#FFFFFF"
-                        android:textSize="20sp" />
+                        android:textSize="20sp"
+                        tools:ignore="RtlSymmetry" />
                 </LinearLayout>
 
                 <LinearLayout
@@ -179,10 +181,11 @@
                     android:orientation="horizontal">
 
                     <ImageButton
-                        android:id="@+id/tennist"
+                        android:contentDescription="@string/TennisButton"
+                        android:id="@+id/Tennis"
                         android:layout_width="100dp"
                         android:layout_height="100dp"
-                        android:layout_marginLeft="75dp"
+                        android:layout_marginStart="75dp"
                         android:background="@drawable/roundedcorners"
                         android:padding="2dp"
 
@@ -190,10 +193,11 @@
                         app:srcCompat="@drawable/tennis" />
 
                     <ImageButton
+                        android:contentDescription="@string/Hockey"
                         android:id="@+id/hockey"
                         android:layout_width="100dp"
                         android:layout_height="100dp"
-                        android:layout_marginLeft="75dp"
+                        android:layout_marginStart="75dp"
                         android:background="@drawable/roundedcorners"
                         android:padding="2dp"
                         android:scaleType="fitCenter"
@@ -211,10 +215,11 @@
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
                         android:gravity="center"
-                        android:paddingLeft="30dp"
-                        android:text="Tennis"
+                        android:paddingStart="30dp"
+                        android:text="@string/TennisText"
                         android:textColor="#FFFFFF"
-                        android:textSize="20sp" />
+                        android:textSize="20sp"
+                        tools:ignore="RtlSymmetry" />
 
                     <TextView
                         android:id="@+id/HockeyText"
@@ -223,9 +228,10 @@
                         android:layout_weight="1"
                         android:gravity="center"
                         android:paddingEnd="10dp"
-                        android:text="Hockey"
+                        android:text="@string/Hockey"
                         android:textColor="#FFFFFF"
-                        android:textSize="20sp" />
+                        android:textSize="20sp"
+                        tools:ignore="RtlSymmetry" />
                 </LinearLayout>
 
                 <LinearLayout
@@ -235,10 +241,11 @@
                     android:orientation="horizontal">
 
                     <ImageButton
+                        android:contentDescription="@string/BasketballButton"
                         android:id="@+id/basketball"
                         android:layout_width="100dp"
                         android:layout_height="100dp"
-                        android:layout_marginLeft="75dp"
+                        android:layout_marginStart="75dp"
                         android:background="@drawable/roundedcorners"
                         android:padding="2dp"
                         android:scaleType="fitCenter"
@@ -252,14 +259,14 @@
 
                     <TextView
                         android:id="@+id/BasketballText"
-                        android:layout_width="50dp"
+                        android:layout_width="0dp"
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
-                        android:paddingLeft="80dp"
-
-                        android:text="BasketBall"
+                        android:paddingStart="80dp"
+                        android:text="@string/BasketballText"
                         android:textColor="#FFFFFF"
-                        android:textSize="20sp" />
+                        android:textSize="20sp"
+                        tools:ignore="RtlSymmetry" />
 
 
                 </LinearLayout>
@@ -267,5 +274,4 @@
             </LinearLayout>
 
         </ScrollView>
-    </RelativeLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>
