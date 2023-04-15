@@ -27,6 +27,14 @@
             android:name=".UploadActivity"
             android:exported="false" />
         <activity android:name=".MainActivity" />
+
+
+        <activity
+            android:name=".activity_badminton"
+            android:exported="false"
+            android:parentActivityName=".SportsLibraryActivity"/>
+
+
         <activity
             android:name=".SplashActivity"
             android:exported="true">
