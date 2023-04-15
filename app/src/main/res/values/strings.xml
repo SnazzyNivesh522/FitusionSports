@@ -44,4 +44,19 @@
     <string name="SetsAndReps">Sets and Reps</string>
     <string name="TargetGroupName">TargetGroupName</string>
     <string name="ImageToAppear">ImageToAppear</string>
+    <string name="CricketButton">CricketButton</string>
+    <string name="BadmintonButton">BadmintonButton</string>
+    <string name="BasketballButton">BasketBallButton</string>
+    <string name="TennisButton">TennisButton</string>
+    <string name="SwimmingButton">SwimmingButton</string>
+    <string name="MenuButton">MenuButton</string>
+    <string name="SportsLibraryText">Sports Library</string>
+    <string name="Cricket">Cricket</string>
+    <string name="BadmintonText">Badminton</string>
+    <string name="SwimmingText">Swimming</string>
+    <string name="FootballText">Football</string>
+    <string name="TennisText">Tennis</string>
+    <string name="Hockey">Hockey</string>
+    <string name="BasketballText">BasketBall</string>
+    <string name="StartWorkout">Start Workout</string>
 </resources>
