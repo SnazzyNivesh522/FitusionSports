@@ -15,6 +15,9 @@
         android:theme="@style/Theme.FitusionSports"
         tools:targetApi="31">
         <activity
+            android:name=".TrainingPage"
+            android:exported="false" />
+        <activity
             android:name=".RegisterActivity"
             android:exported="false" />
         <activity
