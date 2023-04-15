@@ -16,4 +16,5 @@
     <color name="black_overlay">#66000000</color>
     <color name="lavender">#8692f7</color>
     <color name="grey">#ff424242</color>
+    <color name="text_color">#383B6E</color>
 </resources>
