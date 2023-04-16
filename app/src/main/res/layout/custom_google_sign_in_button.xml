@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center_horizontal|center|center_vertical"
+    >
+
+    <!-- Custom Google Sign-In button -->
+    <Button
+        android:id="@+id/custom_sign_in_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Continue with Google"
+        android:textSize="20sp"
+        android:textColor="@android:color/white"
+        android:drawableLeft="@drawable/google_logo"
+        android:padding="16dp"
+        android:layout_gravity="center"
+        android:background="@drawable/roundedcorners"/>
+
+
+</FrameLayout>
