@@ -25,7 +25,7 @@ public class SplashActivity extends AppCompatActivity {
         splashimage.startAnimation(splashanimation);
         new Handler().postDelayed(() -> {
             splashprogressbar.setVisibility(View.VISIBLE);
-            Intent intent = new Intent(SplashActivity.this, MainActivity.class);
+            Intent intent = new Intent(SplashActivity.this, StartActivity.class);
             startActivity(intent);
             finish();
         },4000);
