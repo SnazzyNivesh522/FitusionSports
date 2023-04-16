@@ -24,7 +24,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_margin="20dp"
-            android:orientation="vertical" >
+            android:orientation="vertical">
 
             <TextView
                 android:id="@+id/WorkoutName"
@@ -59,8 +59,8 @@
                     android:textColor="#7CFFFFFF"
                     android:textSize="16sp"
                     android:textStyle="bold"
-                    app:drawableTint="#7CFFFFFF"
-                    app:drawableEndCompat="@drawable/arrow_forward_workout_type_on_day" />
+                    app:drawableEndCompat="@drawable/arrow_forward_workout_type_on_day"
+                    app:drawableTint="#7CFFFFFF" />
 
                 <TextView
                     android:id="@+id/EquipmentAvailable"
@@ -87,8 +87,8 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="20dp"
-                    android:background="@drawable/roundedcorners"
                     android:layout_marginEnd="10dp"
+                    android:background="@drawable/roundedcorners"
                     android:orientation="vertical">
 
                     <TextView
@@ -103,8 +103,8 @@
                         android:textColor="#7CFFFFFF"
                         android:textSize="16sp"
                         android:textStyle="bold"
-                        app:drawableTint="#7CFFFFFF"
-                        app:drawableEndCompat="@drawable/arrow_forward_workout_type_on_day" />
+                        app:drawableEndCompat="@drawable/arrow_forward_workout_type_on_day"
+                        app:drawableTint="#7CFFFFFF" />
 
                     <TextView
                         android:id="@+id/TargetGroupExcercise"
@@ -169,15 +169,16 @@
             <TextView
                 android:id="@+id/StartYourWorkoutText"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
+                android:layout_height="50dp"
                 android:layout_marginTop="20dp"
+                android:background="@drawable/rounded_corners_light_blue_a400_theme"
                 android:padding="10dp"
+                android:text="@string/StartWorkout"
+                android:gravity="center"
                 android:textColor="@color/white"
                 android:textSize="20sp"
                 android:textStyle="bold"
-                android:textAlignment="center"
-                android:background="@drawable/rounded_corners_light_blue_a400_theme"
-                android:text="@string/StartWorkout" />
+                android:onClick="OpenTrainingPageStartWorkout"/>
         </LinearLayout>
     </ScrollView>
 
