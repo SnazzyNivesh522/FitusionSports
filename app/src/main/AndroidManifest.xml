@@ -15,6 +15,9 @@
         android:theme="@style/Theme.FitusionSports"
         tools:targetApi="31">
         <activity
+            android:name=".TrainingPageWorkoutStart"
+            android:exported="false" />
+        <activity
             android:name=".TrainingPage"
             android:exported="false" />
         <activity
@@ -27,14 +30,10 @@
             android:name=".UploadActivity"
             android:exported="false" />
         <activity android:name=".MainActivity" />
-
-
         <activity
             android:name=".activity_badminton"
             android:exported="false"
-            android:parentActivityName=".SportsLibraryActivity"/>
-
-
+            android:parentActivityName=".SportsLibraryActivity" />
         <activity
             android:name=".SplashActivity"
             android:exported="true">

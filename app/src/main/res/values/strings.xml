@@ -63,4 +63,5 @@
     <string name="StartYourWorkout">Start Your Workout</string>
     <string name="StopClockButton">StopClock</string>
     <string name="WorkoutTime">WorkoutTime</string>
+    <string name="TimeText">Time</string>
 </resources>
